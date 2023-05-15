@@ -1,22 +1,22 @@
 
+import Navbar from '../components/navbar'
+import Main from './main'
+import Feature from './feature'
+import Plan from './plan'
+import Category from './category'
+import About from './about'
 
-function CompA(){
+const Home = () => {
   return (
-    <h1>CompA</h1>
-  )
-}
-
-
-function CompB(){
-  return (
-    <h1>CompB</h1>
-  )
-}
-
-function Home() {
-  return (
-    <h1>Hello World</h1>
-  ) 
-}
+    <>
+      <Navbar />
+      <Main />
+      <About />
+      <Feature />
+      <Category />
+      <Plan />
+    </>
+  );
+};
 
 export default Home;
